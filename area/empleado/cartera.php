@@ -16,7 +16,7 @@
 	require_once('header1.php');
 ?>
 
-	<title>Información de la Cartera</title>
+	<title>Información de Cartera<</title>
 
 <?php
 	require_once('header2.php');
@@ -37,7 +37,7 @@
 ?>
 
 	<section id="Title_Page">
-		<h1>Datos de la Cartera</h1>
+		<h1>Datos de la Cartera <?php echo $Cartera->get_nombre_cartera(); ?></h1>
 	</section>
 
 	<section id="Breadcrumbs">
